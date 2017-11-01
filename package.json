@@ -1,0 +1,16 @@
+{
+  "name": "datos_servel",
+  "version": "1.0.0",
+  "description": "```javascript var links = document.querySelectorAll('p') var ids = []; links.forEach((e)=>{ \tif(e.children[0]){ \t\tids.push(e.children[0].name) \t} }) copy(ids) ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristobal Valenzuela <cvalenzuela@nyu.edu> (https://github.com/cvalenzuela)",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "1.1.2",
+    "download-file": "0.1.5",
+    "pdf2json": "1.1.7"
+  }
+}
